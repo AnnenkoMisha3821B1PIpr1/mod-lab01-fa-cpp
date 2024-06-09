@@ -100,8 +100,7 @@ bool checker_little_letters(std::string word) {
     for (size_t i = 1; i < word.size(); ++i) {
         if (word[i] >= 'a' && word[i] <= 'z') {
             flag_contain = true;
-        }
-        else {
+        } else {
             flag_contain = false;
             break;
         }
@@ -127,12 +126,10 @@ unsigned int f2(const char* str) {
         }
         if (Contain_big_letter == false) {
             continue;
-        }
-        else {
+        } else {
             if (Contain_little_letters == true) {
                 count_right_words++;
-            }
-            else {
+            } else {
                 continue;
             }
         }
@@ -165,8 +162,7 @@ unsigned int faStr2(const char* str) {
             && read == true
             && skip == false) {
             read = false;
-        }        
-        else if (!Null(str[sk])
+        } else if (!Null(str[sk])
             && !LOW(str[sk]) 
             && read == true) {
             if (skip == false) {
