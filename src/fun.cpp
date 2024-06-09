@@ -163,7 +163,7 @@ unsigned int faStr2(const char* str) {
             && skip == false) {
             read = false;
         } else if (!Null(str[sk])
-            && !LOW(str[sk]) 
+            && !LOW(str[sk])
             && read == true) {
             if (skip == false) {
                 skip = true;
