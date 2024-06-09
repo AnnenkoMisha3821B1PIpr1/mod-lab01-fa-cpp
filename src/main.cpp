@@ -1,7 +1,7 @@
 // Copyright 2022 UNN-IASR
-#include "fun.h"
 #include <iostream>
 #include <sstream>
+#include "fun.h"
 
 int main() {
     const char* str1
@@ -18,7 +18,7 @@ int main() {
     std::cout << str1
         << "| No number => " <<
         std::to_string(count) << std::endl;
-    
+
     std::cout
         << "-----------------------------"
         << std::endl;
