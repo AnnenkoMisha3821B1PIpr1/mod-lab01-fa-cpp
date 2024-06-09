@@ -3,7 +3,7 @@
 #include <sstream>
 #include <vector>
 #include <string>
-#include "fun.h";
+#include "fun.h"
 
 std::vector<std::string> Return_replicated_words(const char* str) {
     std::istringstream copy_str(str);
